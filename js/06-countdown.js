@@ -3,7 +3,7 @@ let countDownStart = Number(prompt("What number should I start the countdown fro
 
 do {
     // Write current number to the console
-    document.write (`${countDownStart} <br>`);
+    console.log(countDownStart);
     
     // Decrease number by 1
     countDownStart--;

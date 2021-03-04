@@ -14,7 +14,7 @@ function isFloat(invest) {
     }
     return true;
 }
-
+//----------------------------------------------------------------------------------------
 // function to check that years entered is a a whole integer
 function isInt(investYears) {
     let intRegex = /^-?\d+$/;
@@ -67,6 +67,6 @@ while ((years >= 1 && years <= 30) !== true) {
 
 //----------------------------------------------------------------------------------------
 // Write to console the investment amount, the interest rate and number of investment years
-document.write(`${investment} <br>`);
-document.write(`${rate} <br>`);
-document.write(`${years} <br>`);
+document.write(`Investment amount: ${investment} <br>`);
+document.write(`Interest rate: ${rate} <br>`);
+document.write(`Investment years: ${years} <br>`);

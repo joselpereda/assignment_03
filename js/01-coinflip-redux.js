@@ -10,11 +10,12 @@ for (i = 0 ; i < cycleTimes; i++ ) {
 
     // If coin toss = 0, write "Heads" to the console
     if (coinFlip === 0) {
-        document.write("Heads<br>");
+        console.log("Heads");
 
-    // If coin toss = 1, write "Tails" to the console    
-    } else if (coinFlip === 1)  {
-        document.write("Tails<br>");
+    // If coin toss = 1, write "Tails" to the console 
+    // Convert variable coinFlip to integer in order to compare to 1   
+    } else if (parseInt(coinFlip) === 1)  {
+        console.log("Tails");
     }
 }
 
